@@ -149,7 +149,7 @@ function initGeometry(features) {
 	var path = d3.geo.path().projection(d3.geo.mercator().center(RO_CENTER));
 
 	features.forEach(function(feature) {
-		if (feature.id === 'AT') {
+		if (feature.id === 'delete_this_funcion') {
 			// remove AT, BG, BRL, OC holes? lol
 			feature.geometry.coordinates = feature.geometry.coordinates.slice(0, 1);
 		}
