@@ -149,8 +149,8 @@ function initGeometry(features) {
 	var path = d3.geo.path().projection(d3.geo.mercator().center(RO_CENTER));
 
 	features.forEach(function(feature) {
-		if (feature.id === 'IF') {
-			// remove Bucharest hole
+		if (feature.id === 'AT') {
+			// remove AT, BG, BRL, OC holes? lol
 			feature.geometry.coordinates = feature.geometry.coordinates.slice(0, 1);
 		}
 
@@ -192,6 +192,12 @@ function updateMeshes(year) {
 			extrudeMaterial: 0,
 			material: 1
 		});
+
+		// remove duplicate vertices
+		// geometry.mergeVertices();
+		
+		// re-upload vertex data to GPU
+		// geometry.verticesNeedUpdate = true;
 
 		var mesh = new THREE.Mesh(geometry, new THREE.MeshFaceMaterial(
 			[extrudeMaterial, faceMaterial]));

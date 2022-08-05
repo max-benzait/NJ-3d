@@ -2,357 +2,13 @@
     "type": "Topology",
     "transform": {
         "scale": [
-            0.0009458587030253588,
-            0.0004646055131870291
+            0.001765973231065934,
+            0.0012459207351785677
         ],
         "translate": [
-            20.262419802867125,
-            43.6192583399312
+            -75.55931761366836,
+            38.92790492617621
         ]
-    },
-    "objects": {
-        "romania-counties-geojson": {
-            "type": "GeometryCollection",
-            "geometries": [
-                {
-                    "type": "Polygon",
-                    "id": "MDD",
-                    "arcs": [
-                        [
-                            0,
-                            1,
-                            2,
-                            3,
-                            4
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Middlesex"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "HD",
-                    "arcs": [
-                        [
-                            5,
-                            6,
-                            7,
-                            8
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Hudson"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "MRR",
-                    "arcs": [
-                        [
-                            9,
-                            10,
-                            11,
-                            12,
-                            13,
-                            14,
-                            15
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Morris"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "GLR",
-                    "arcs": [
-                        [
-                            16,
-                            17,
-                            18,
-                            19,
-                            20,
-                            21
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Gloucester"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "MNTH",
-                    "arcs": [
-                        [
-                            -4,
-                            22,
-                            23,
-                            24,
-                            25
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Monmouth"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "OC",
-                    "arcs": [
-                        [
-                            -24,
-                            26,
-                            27,
-                            28
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Ocean"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "ESS",
-                    "arcs": [
-                        [
-                            29,
-                            30,
-                            -9,
-                            31,
-                            -12
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Essex"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "BRL",
-                    "arcs": [
-                        [
-                            32,
-                            33,
-                            -25,
-                            -29,
-                            34,
-                            35,
-                            36
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Burlington"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "CML",
-                    "arcs": [
-                        [
-                            -20,
-                            37,
-                            38,
-                            39,
-                            40
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Cumberland"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "SL",
-                    "arcs": [
-                        [
-                            -21,
-                            -41,
-                            41
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Salem"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "PSS",
-                    "arcs": [
-                        [
-                            42,
-                            43,
-                            44,
-                            -30,
-                            -11
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Passaic"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "ST",
-                    "arcs": [
-                        [
-                            -14,
-                            45,
-                            -1,
-                            46,
-                            47
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Somerset"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "SX",
-                    "arcs": [
-                        [
-                            48,
-                            -43,
-                            -10,
-                            49,
-                            50
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Sussex"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "UN",
-                    "arcs": [
-                        [
-                            -46,
-                            -13,
-                            -32,
-                            -8,
-                            51,
-                            -2
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Union"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "WR",
-                    "arcs": [
-                        [
-                            52,
-                            -50,
-                            -16,
-                            53,
-                            54
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Warren"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "AT",
-                    "arcs": [
-                        [
-                            55,
-                            -35,
-                            -28,
-                            56,
-                            57,
-                            -38,
-                            -19
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Atlantic"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "CDN",
-                    "arcs": [
-                        [
-                            -36,
-                            -56,
-                            -18,
-                            58
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Camden"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "HDN",
-                    "arcs": [
-                        [
-                            -54,
-                            -15,
-                            -48,
-                            59,
-                            60
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Hunterdon"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "MR",
-                    "arcs": [
-                        [
-                            -60,
-                            -47,
-                            -5,
-                            -26,
-                            -34,
-                            61
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Mercer"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "CM",
-                    "arcs": [
-                        [
-                            -39,
-                            -58,
-                            62
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Cape May"
-                    }
-                },
-                {
-                    "type": "Polygon",
-                    "id": "BG",
-                    "arcs": [
-                        [
-                            63,
-                            -6,
-                            -31,
-                            -45
-                        ]
-                    ],
-                    "properties": {
-                        "name": "Bergen"
-                    }
-                }
-            ]
-        }
     },
     "arcs": [
         [
@@ -2027,5 +1683,496 @@
                 -15
             ]
         ]
-    ]
+    ],
+    "objects": {
+        "cb_2015_new_jersey_county_20m": {
+            "type": "GeometryCollection",
+            "geometries": [
+                {
+                    "arcs": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "023",
+                        "COUNTYNS": "00882230",
+                        "AFFGEOID": "0500000US34023",
+                        "GEOID": "34023",
+                        "NAME": "Middlesex",
+                        "LSAD": "06",
+                        "ALAND": 800430391,
+                        "AWATER": 35670780
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            5,
+                            6,
+                            7,
+                            8
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "017",
+                        "COUNTYNS": "00882278",
+                        "AFFGEOID": "0500000US34017",
+                        "GEOID": "34017",
+                        "NAME": "Hudson",
+                        "LSAD": "06",
+                        "ALAND": 119573183,
+                        "AWATER": 41957227
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "027",
+                        "COUNTYNS": "00882231",
+                        "AFFGEOID": "0500000US34027",
+                        "GEOID": "34027",
+                        "NAME": "Morris",
+                        "LSAD": "06",
+                        "ALAND": 1192173860,
+                        "AWATER": 55314215
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "015",
+                        "COUNTYNS": "00882277",
+                        "AFFGEOID": "0500000US34015",
+                        "GEOID": "34015",
+                        "NAME": "Gloucester",
+                        "LSAD": "06",
+                        "ALAND": 834029457,
+                        "AWATER": 39256273
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -4,
+                            22,
+                            23,
+                            24,
+                            25
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "025",
+                        "COUNTYNS": "00882910",
+                        "AFFGEOID": "0500000US34025",
+                        "GEOID": "34025",
+                        "NAME": "Monmouth",
+                        "LSAD": "06",
+                        "ALAND": 1213170996,
+                        "AWATER": 509997774
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -24,
+                            26,
+                            27,
+                            28
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "029",
+                        "COUNTYNS": "00882279",
+                        "AFFGEOID": "0500000US34029",
+                        "GEOID": "34029",
+                        "NAME": "Ocean",
+                        "LSAD": "06",
+                        "ALAND": 1628693208,
+                        "AWATER": 742185053
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            29,
+                            30,
+                            -9,
+                            31,
+                            -12
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "013",
+                        "COUNTYNS": "00882276",
+                        "AFFGEOID": "0500000US34013",
+                        "GEOID": "34013",
+                        "NAME": "Essex",
+                        "LSAD": "06",
+                        "ALAND": 326923172,
+                        "AWATER": 8819138
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            32,
+                            33,
+                            -25,
+                            -29,
+                            34,
+                            35,
+                            36
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "005",
+                        "COUNTYNS": "00882272",
+                        "AFFGEOID": "0500000US34005",
+                        "GEOID": "34005",
+                        "NAME": "Burlington",
+                        "LSAD": "06",
+                        "ALAND": 2068300220,
+                        "AWATER": 55071387
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -20,
+                            37,
+                            38,
+                            39,
+                            40
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "011",
+                        "COUNTYNS": "00882275",
+                        "AFFGEOID": "0500000US34011",
+                        "GEOID": "34011",
+                        "NAME": "Cumberland",
+                        "LSAD": "06",
+                        "ALAND": 1252937239,
+                        "AWATER": 502091171
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -21,
+                            -41,
+                            41
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "033",
+                        "COUNTYNS": "00882233",
+                        "AFFGEOID": "0500000US34033",
+                        "GEOID": "34033",
+                        "NAME": "Salem",
+                        "LSAD": "06",
+                        "ALAND": 859872501,
+                        "AWATER": 104455871
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            42,
+                            43,
+                            44,
+                            -30,
+                            -11
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "031",
+                        "COUNTYNS": "00882232",
+                        "AFFGEOID": "0500000US34031",
+                        "GEOID": "34031",
+                        "NAME": "Passaic",
+                        "LSAD": "06",
+                        "ALAND": 480898988,
+                        "AWATER": 32017797
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -14,
+                            45,
+                            -1,
+                            46,
+                            47
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "035",
+                        "COUNTYNS": "00882234",
+                        "AFFGEOID": "0500000US34035",
+                        "GEOID": "34035",
+                        "NAME": "Somerset",
+                        "LSAD": "06",
+                        "ALAND": 781584258,
+                        "AWATER": 7882445
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            48,
+                            -43,
+                            -10,
+                            49,
+                            50
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "037",
+                        "COUNTYNS": "00882236",
+                        "AFFGEOID": "0500000US34037",
+                        "GEOID": "34037",
+                        "NAME": "Sussex",
+                        "LSAD": "06",
+                        "ALAND": 1341722616,
+                        "AWATER": 43476185
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -46,
+                            -13,
+                            -32,
+                            -8,
+                            51,
+                            -2
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "039",
+                        "COUNTYNS": "00882235",
+                        "AFFGEOID": "0500000US34039",
+                        "GEOID": "34039",
+                        "NAME": "Union",
+                        "LSAD": "06",
+                        "ALAND": 266425133,
+                        "AWATER": 6573926
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            52,
+                            -50,
+                            -16,
+                            53,
+                            54
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "041",
+                        "COUNTYNS": "00882237",
+                        "AFFGEOID": "0500000US34041",
+                        "GEOID": "34041",
+                        "NAME": "Warren",
+                        "LSAD": "06",
+                        "ALAND": 924474633,
+                        "AWATER": 15273016
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            55,
+                            -35,
+                            -28,
+                            56,
+                            57,
+                            -38,
+                            -19
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "001",
+                        "COUNTYNS": "00882270",
+                        "AFFGEOID": "0500000US34001",
+                        "GEOID": "34001",
+                        "NAME": "Atlantic",
+                        "LSAD": "06",
+                        "ALAND": 1439256827,
+                        "AWATER": 300767732
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -36,
+                            -56,
+                            -18,
+                            58
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "007",
+                        "COUNTYNS": "00882273",
+                        "AFFGEOID": "0500000US34007",
+                        "GEOID": "34007",
+                        "NAME": "Camden",
+                        "LSAD": "06",
+                        "ALAND": 573077187,
+                        "AWATER": 15607750
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -54,
+                            -15,
+                            -48,
+                            59,
+                            60
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "019",
+                        "COUNTYNS": "00882228",
+                        "AFFGEOID": "0500000US34019",
+                        "GEOID": "34019",
+                        "NAME": "Hunterdon",
+                        "LSAD": "06",
+                        "ALAND": 1108086745,
+                        "AWATER": 24897574
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -60,
+                            -47,
+                            -5,
+                            -26,
+                            -34,
+                            61
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "021",
+                        "COUNTYNS": "00882229",
+                        "AFFGEOID": "0500000US34021",
+                        "GEOID": "34021",
+                        "NAME": "Mercer",
+                        "LSAD": "06",
+                        "ALAND": 581629671,
+                        "AWATER": 11189320
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            -39,
+                            -58,
+                            62
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "009",
+                        "COUNTYNS": "00882274",
+                        "AFFGEOID": "0500000US34009",
+                        "GEOID": "34009",
+                        "NAME": "Cape May",
+                        "LSAD": "06",
+                        "ALAND": 651209688,
+                        "AWATER": 955666476
+                    }
+                },
+                {
+                    "arcs": [
+                        [
+                            63,
+                            -6,
+                            -31,
+                            -45
+                        ]
+                    ],
+                    "type": "Polygon",
+                    "properties": {
+                        "STATEFP": "34",
+                        "COUNTYFP": "003",
+                        "COUNTYNS": "00882271",
+                        "AFFGEOID": "0500000US34003",
+                        "GEOID": "34003",
+                        "NAME": "Bergen",
+                        "LSAD": "06",
+                        "ALAND": 603605810,
+                        "AWATER": 35276008
+                    }
+                }
+            ]
+        }
+    }
 }
