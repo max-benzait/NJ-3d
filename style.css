@@ -1,7 +1,29 @@
-body {
-	margin: 0;
-	padding: 0;
-}
+* {
+	box-sizing: border-box;
+  }
+  
+  body {
+   display: flex;
+   margin: 0;
+  }
+
+  main {
+	position: fixed;
+	width: 500px;
+	height: 200px;
+	margin: 5% auto; /* Will not center vertically and won't work in IE6/7. */
+	left: 0;
+	right: 0;
+  }
+
+
+
+
+
+
+
+
+
 
 #infobox {
 	position: absolute;

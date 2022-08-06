@@ -49,7 +49,7 @@ function initThree() {
 
 function initCamera() {
 	camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 10000);
-	camera.position.set(-8.278324114488553, 23.715105536749885, 5.334970045945842);
+	camera.position.set(-24.63174808669089, 12.376279357201083, 8.672252287761967);
 	camera.up.set(-0.3079731382492934, 0.9436692395156481, -0.12099963846565401);
 
 	// restoreCameraOrientation(camera);
