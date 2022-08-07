@@ -101,7 +101,7 @@ function updateInfoBox() {
 		}
 	}
 
-	document.getElementById('infobox').innerHTML = html;
+	document.getElementById('container').innerHTML = html;
 }
 
 function animate() {
