@@ -354,3 +354,6 @@ loadData(dataSources, function(results) {
 document.addEventListener('mousemove', onDocumentMouseMove);
 window.addEventListener('resize', onWindowResize);
 window.addEventListener('beforeunload', saveCameraOrientation);
+
+
+var winResize	= new THREEx.WindowResize(renderer, camera)
