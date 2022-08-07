@@ -25,7 +25,7 @@ function initRenderer() {
 	renderer = new THREE.WebGLRenderer();
 
 	renderer.setSize(window.innerWidth, window.innerHeight);
-	renderer.setClearColor(0xDDDDDD);
+	renderer.setClearColor(0x000000);
 
 	document.body.appendChild(renderer.domElement);
 }
@@ -49,7 +49,7 @@ function initThree() {
 
 function initCamera() {
 	camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 10000);
-	camera.position.set(-24.63174808669089, 12.376279357201083, 8.672252287761967);
+	camera.position.set(-8.278324114488553, 23.715105536749885, 5.334970045945842);
 	camera.up.set(-0.3079731382492934, 0.9436692395156481, -0.12099963846565401);
 
 	// restoreCameraOrientation(camera);
@@ -149,8 +149,8 @@ function initGeometry(features) {
 	var path = d3.geo.path().projection(d3.geo.mercator().center(RO_CENTER));
 
 	features.forEach(function(feature) {
-		if (feature.id === 'delete_this_funcion') {
-			// remove AT, BG, BRL, OC holes? lol
+		if (feature.id === 'IF') {
+			// remove Bucharest hole
 			feature.geometry.coordinates = feature.geometry.coordinates.slice(0, 1);
 		}
 
@@ -192,12 +192,6 @@ function updateMeshes(year) {
 			extrudeMaterial: 0,
 			material: 1
 		});
-
-		// remove duplicate vertices
-		// geometry.mergeVertices();
-		
-		// re-upload vertex data to GPU
-		// geometry.verticesNeedUpdate = true;
 
 		var mesh = new THREE.Mesh(geometry, new THREE.MeshFaceMaterial(
 			[extrudeMaterial, faceMaterial]));
