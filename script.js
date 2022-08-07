@@ -41,14 +41,14 @@ function initThree() {
 	initLights();
 
 	controls = new THREE.TrackballControls(camera, renderer.domElement);
-	controls.minDistance = 1;
-	controls.maxDistance = 100;
+	controls.minDistance = 10;
+	controls.maxDistance = 50;
 
 	animate();
 }
 
 function initCamera() {
-	camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 10000);
+	camera = new THREE.PerspectiveCamera(45, 600 / 400, 0.1, 10000);
 	camera.position.set(-8.278324114488553, 23.715105536749885, 5.334970045945842);
 	camera.up.set(-0.3079731382492934, 0.9436692395156481, -0.12099963846565401);
 
@@ -113,15 +113,15 @@ function animate() {
 }
 
 function onDocumentMouseMove( event ) {
-	mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
-	mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+	mouse.x = ( event.clientX / 600 ) * 2 - 1;
+	mouse.y = - ( event.clientY / 400 ) * 2 + 1;
 }
 
 function onWindowResize() {
-	camera.aspect = window.innerWidth / window.innerHeight;
+	camera.aspect = 600 / 400;
 	camera.updateProjectionMatrix();
 
-	renderer.setSize(window.innerWidth, window.innerHeight);
+	renderer.setSize(600, 400);
 }
 
 
