@@ -24,7 +24,7 @@ var getLuminance;
 function initRenderer() {
 	renderer = new THREE.WebGLRenderer();
 
-	renderer.setSize(window.innerWidth, window.innerHeight);
+	renderer.setSize(600, 400);
 	renderer.setClearColor(0x000000);
 
 	document.body.appendChild(renderer.domElement);
@@ -41,8 +41,8 @@ function initThree() {
 	initLights();
 
 	controls = new THREE.TrackballControls(camera, renderer.domElement);
-	controls.minDistance = 10;
-	controls.maxDistance = 50;
+	controls.minDistance = 1;
+	controls.maxDistance = 100;
 
 	animate();
 }
