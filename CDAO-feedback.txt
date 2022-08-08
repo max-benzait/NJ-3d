@@ -1,0 +1,7 @@
+add orbitcontrols
+fix position where we can appreciate depth
+make it bigger
+add county names
+add hospital locations
+change color of non-counties
+add unique colors to yes-counties
