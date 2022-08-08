@@ -24,7 +24,7 @@ var getLuminance;
 function initRenderer() {
 	renderer = new THREE.WebGLRenderer();
 
-	renderer.setSize(600, 400);
+	renderer.setSize(window.innerWidth, window.innerHeight);
 	renderer.setClearColor(0x000000);
 
 	document.body.appendChild(renderer.domElement);
@@ -48,7 +48,7 @@ function initThree() {
 }
 
 function initCamera() {
-	camera = new THREE.PerspectiveCamera(45, 600 / 400, 0.1, 10000);
+	camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 10000);
 	camera.position.set(-8.278324114488553, 23.715105536749885, 5.334970045945842);
 	camera.up.set(-0.3079731382492934, 0.9436692395156481, -0.12099963846565401);
 
@@ -113,15 +113,15 @@ function animate() {
 }
 
 function onDocumentMouseMove( event ) {
-	mouse.x = ( event.clientX / 600 ) * 2 - 1;
-	mouse.y = - ( event.clientY / 400 ) * 2 + 1;
+	mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+	mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
 }
 
 function onWindowResize() {
-	camera.aspect = 600 / 400;
+	camera.aspect = window.innerWidth / window.innerHeight;
 	camera.updateProjectionMatrix();
 
-	renderer.setSize(600, 400);
+	renderer.setSize(window.innerWidth, window.innerHeight);
 }
 
 
@@ -354,6 +354,3 @@ loadData(dataSources, function(results) {
 document.addEventListener('mousemove', onDocumentMouseMove);
 window.addEventListener('resize', onWindowResize);
 window.addEventListener('beforeunload', saveCameraOrientation);
-
-
-var winResize	= new THREEx.WindowResize(renderer, camera)
