@@ -5,3 +5,4 @@ add county names
 add hospital locations
 #change color of non-counties
 #add unique colors to yes-counties
+#change background to white

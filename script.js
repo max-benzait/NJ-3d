@@ -43,6 +43,8 @@ function initThree() {
 	controls = new THREE.TrackballControls(camera, renderer.domElement);
 	controls.minDistance = 10;
 	controls.maxDistance = 50;
+	controls.staticMoving = true;
+	controls.noPan = true;
 
 	animate();
 }
