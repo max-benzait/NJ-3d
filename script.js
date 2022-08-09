@@ -178,10 +178,43 @@ function updateMeshes(year) {
 
 	meshes = counties.entries().map(function(entry) {
 		var countyCode = entry.key, county = entry.value;
+		// if population = 300k assign blank color
 		var population = county.get(year);
+		var color = ""
+		if(population == "300000"){
+			color = "#CCD1D1"
+		}else{
+			switch (countyCode) {
+				case "BG":
+				  color = "#E6B0AA";
+				  break;
+				case "ESS":
+				  color = "#3498DB";
+				  break;
+				case "HD":
+				  color = "#2980B9";
+				  break;
+				case "MDD":
+				  color = "#F5B041";
+				  break;
+				case "MNTH":
+				  color = "#58D68D";
+				  break;
+				case "OC":
+				  color = "#9B59B6";
+				  break;
+				case "PSS":
+			      color = "#2C3E50";
+				  break;
+				case "UN":
+				  color = "#E74C3C";
+				  break;				  
+			  }
+		}
 		var extrusion = getExtrusion(population);
-		var luminance = getLuminance(population);
-		var color = d3.hsl(105, 0.8, luminance).toString();
+		//var luminance = getLuminance(population);
+
+		//var color = d3.hsl(205, 0.8, luminance).toString();
 
 		var extrudeMaterial = new THREE.MeshLambertMaterial({color: color}); 
 		var faceMaterial = new THREE.MeshBasicMaterial({color: color});
