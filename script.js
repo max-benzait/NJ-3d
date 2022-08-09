@@ -44,13 +44,14 @@ function initThree() {
 	controls.minDistance = 10;
 	controls.maxDistance = 50;
 	controls.staticMoving = true;
-	controls.noPan = true;
+	//controls.noRotate = true;
+	//controls.noPan = true;
 
 	animate();
 }
 
 function initCamera() {
-	camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 10000);
+	camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 10000);
 	camera.position.set(-8.278324114488553, 23.715105536749885, 5.334970045945842);
 	camera.up.set(-0.3079731382492934, 0.9436692395156481, -0.12099963846565401);
 
