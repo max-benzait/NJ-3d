@@ -46,14 +46,20 @@ function initThree() {
 	controls.staticMoving = true;
 	//controls.noRotate = true;
 	//controls.noPan = true;
-
+	const quaternion = new THREE.Quaternion();
+	quaternion.setFromAxisAngle( new THREE.Vector3( 0, 1, 0 ), Math.PI / 2 );
+	
+	const vector = new THREE.Vector3( 1, 0, 0 );
+	vector.applyQuaternion( quaternion );
 	animate();
 }
 
 function initCamera() {
 	camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 10000);
-	camera.position.set(-8.278324114488553, 23.715105536749885, 5.334970045945842);
-	camera.up.set(-0.3079731382492934, 0.9436692395156481, -0.12099963846565401);
+	//camera.position.set(-8.278324114488553, 23.715105536749885, 5.334970045945842);
+	//camera.up.set(-0.3079731382492934, 0.9436692395156481, -0.12099963846565401);
+	camera.position.set(-14.35792206287425, 12.036181635275922, 6.65606365525905);
+	camera.up.set(-0.36016912768926856, 0.7319931459402251, -0.5783288283978727);
 
 	// restoreCameraOrientation(camera);
 }
@@ -195,7 +201,7 @@ function updateMeshes(year) {
 				  color = "#3498DB";
 				  break;
 				case "HD":
-				  color = "#2980B9";
+				  color = "#00FFFB";
 				  break;
 				case "MDD":
 				  color = "#F5B041";
@@ -390,3 +396,4 @@ loadData(dataSources, function(results) {
 document.addEventListener('mousemove', onDocumentMouseMove);
 window.addEventListener('resize', onWindowResize);
 window.addEventListener('beforeunload', saveCameraOrientation);
+
