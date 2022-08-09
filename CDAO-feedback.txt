@@ -1,5 +1,6 @@
 #add orbitcontrols
-fix position where we can appreciate depth
+#fix position where we can appreciate depth
+fix rotation on a single axis
 make it bigger
 add county names
 add hospital locations
